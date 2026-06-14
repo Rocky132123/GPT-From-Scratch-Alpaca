@@ -48,4 +48,16 @@ Final RMSNorm
 Linear Language Head
       │
       ▼
+
 Next Token Prediction
+| Parameter       | Value  |
+| --------------- | ------ |
+| Layers          | 8      |
+| Heads           | 8      |
+| Embedding Size  | 512    |
+| Context Length  | 256    |
+| Vocabulary Size | 8000   |
+| Optimizer       | AdamW  |
+| Learning Rate   | 3e-4   |
+| Dataset         | Alpaca |
+
