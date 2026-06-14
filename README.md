@@ -19,7 +19,26 @@ The model was trained on the Alpaca instruction dataset and is capable of genera
 - Custom Training Loop
 - Top-k Sampling Text Generation
 - Checkpoint Saving and Loading
+  
+| Parameter       | Value  |
+| --------------- | ------ |
+| Layers          | 8      |
+| Heads           | 8      |
+| Embedding Size  | 512    |
+| Context Length  | 256    |
+| Vocabulary Size | 8000   |
+| Optimizer       | AdamW  |
+| Learning Rate   | 3e-4   |
+| Dataset         | Alpaca |
 
+---
+
+# Add Screenshots
+
+Create folder:
+
+```text
+images/
 ---
 
 ## Model Architecture
@@ -48,16 +67,7 @@ Final RMSNorm
 Linear Language Head
       │
       ▼
-
 Next Token Prediction
-| Parameter       | Value  |
-| --------------- | ------ |
-| Layers          | 8      |
-| Heads           | 8      |
-| Embedding Size  | 512    |
-| Context Length  | 256    |
-| Vocabulary Size | 8000   |
-| Optimizer       | AdamW  |
-| Learning Rate   | 3e-4   |
-| Dataset         | Alpaca |
+''''
+
 
