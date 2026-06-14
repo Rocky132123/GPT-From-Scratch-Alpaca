@@ -61,6 +61,13 @@ Linear Language Head
       │
       ▼
 Next Token Prediction
-''''
+
+## Training Loss
+
+![Loss Curve](images/loss_curve.png)
+
+## Sample Generation
+
+![Sample Generation](images/sample_generation.png)
 
 
