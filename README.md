@@ -33,13 +33,6 @@ The model was trained on the Alpaca instruction dataset and is capable of genera
 
 ---
 
-# Add Screenshots
-
-Create folder:
-
-```text
-images/
----
 
 ## Model Architecture
 
